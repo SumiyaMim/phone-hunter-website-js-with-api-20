@@ -53,7 +53,9 @@ const displayPhones = (phones, isShowAll) => {
             <img src="${phone.image}"/>
         </figure>
         <div class="card-body items-center text-center">
-            <h2 class="card-title mb-2">${phone.phone_name}</h2>
+            <h2 class="card-title font-bold mb-2">${phone.phone_name}</h2>
+            <p class="text-base mb-1">There are many variations of passages of available, but the majority have suffered</p>
+            <h2 class="font-bold text-lg mb-2">$999</h2>
             <div class="card-actions justify-center">
                 <button onclick="handleShowDetail('${phone.slug}')" class="btn btn-accent">Show Details</button>
             </div>
